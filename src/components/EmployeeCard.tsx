@@ -1,4 +1,4 @@
-
+import "./EmployeeCard.css"
 interface EmployeeCardProps {
     employee: {
          name: {
@@ -18,7 +18,7 @@ interface EmployeeCardProps {
     const {employee} = props
     
     return (
-      <div>
+      <div className="CSSS">
          <figure className='DisplayEmployee'>
            <img src={employee.picture.medium} alt={employee.name.first} />
            <section className="information">
